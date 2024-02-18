@@ -2,6 +2,12 @@
 
 Take care of your health while coding! This Break Reminder extension for Visual Studio Code gently nudges you to take a 10-minute break every hour of coding. Stay productive and mindful of your well-being with timely reminders.
 
+## How to Use
+
+1. Install the extension.
+2. hit `ctrl + shift + p` and type "Remind me to take a break" then hit `Enter`.
+3. The extension will automatically start reminding you to take a break every hour.
+
 ![Demo GIF](https://res.cloudinary.com/dtqx2jvcg/image/upload/v1708287901/coding-break-reminder/jip3zw6py1agtgim5rnu.gif "Coding Break Demo")
 
 ## Features
@@ -19,12 +25,6 @@ This extension contributes the following commands:
 - `break-reminder.dismissMessage`: Dismisses the current break reminder message.
 - `break-reminder.stopReminders`: Stops all subsequent break reminders.
 - `break-reminder.configure`: Opens settings to configure break reminder intervals and durations (feature coming soon).
-
-## How to Use
-
-1. Install the extension from the VS Code Marketplace.
-2. The extension will automatically start reminding you to take a break every hour.
-3. Use the commands listed above to interact with the reminders.
 
 ## Installation
 
