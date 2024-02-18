@@ -1,71 +1,53 @@
-# break-reminder README
+# Break Reminder for VS Code
 
-This is the README for your extension "break-reminder". After writing up a brief description, we recommend including the following sections.
+Take care of your health while coding! This Break Reminder extension for Visual Studio Code gently nudges you to take a 10-minute break every hour of coding. Stay productive and mindful of your well-being with timely reminders.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- **Timely Reminders:** Automatically prompts you to take a 10-minute break every hour with a friendly notification.
+- **Customizable:** Configure your reminder intervals and break durations to suit your work style (coming soon).
+- **Snooze or Dismiss:** Easily dismiss the current reminder or snooze it for a later time.
+- **Stop Reminders:** Have the flexibility to stop all subsequent reminders with a single command.
 
-For example if there is an image subfolder under your extension project workspace:
+## Commands
 
-\!\[feature X\]\(images/feature-x.png\)
+This extension contributes the following commands:
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+- `break-reminder.remindBreak`: Triggers a break reminder immediately.
+- `break-reminder.dismissMessage`: Dismisses the current break reminder message.
+- `break-reminder.stopReminders`: Stops all subsequent break reminders.
+- `break-reminder.configure`: Opens settings to configure break reminder intervals and durations (feature coming soon).
 
-## Requirements
+## How to Use
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+1. Install the extension from the VS Code Marketplace.
+2. The extension will automatically start reminding you to take a break every hour.
+3. Use the commands listed above to interact with the reminders.
 
-## Extension Settings
+## Installation
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+Search for "Break Reminder" in the VS Code Extensions view (`Ctrl+Shift+X` or `Cmd+Shift+X` on macOS) and click Install.
 
-For example:
+Alternatively, you can launch VS Code Quick Open (`Ctrl+P` or `Cmd+P`), paste the following command, and press enter:
 
-This extension contributes the following settings:
+`ext install ChukuSuccess.break-reminder`
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+## Contributing & Feedback
 
-## Known Issues
+Contributions are always welcome! Whether it's submitting bugs, feature requests, or giving feedback, your input helps make this extension better for everyone.
+Email me at `ciferr04@gmail.com` if you have any requests, suggestions, or feedback!
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+## License
 
-## Release Notes
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Users appreciate release notes as you update your extension.
+## Acknowledgments
 
-### 1.0.0
+- Thank you to all the users and collaborators who make this project possible.
+- Special thanks to the Visual Studio Code team for their excellent editor and documentation.
 
-Initial release of ...
+## Support
 
-### 1.0.1
+If you find this extension useful, please consider rating it on the VS Code Marketplace and sharing it with your friends and colleagues.
 
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+For any questions or suggestions, you can also open an issue on the [GitHub repository](https://github.com/ChukuSuccess/break-reminder).

@@ -1,8 +1,14 @@
 {
-  "name": "break-reminder",
-  "displayName": "break-reminder",
+  "name": "coding-break-reminder",
+  "displayName": "Coding Break Reminder",
+  "publisher": "ChukuSuccess",
   "description": "This extension reminds you to take a 10-minute break for each hour of coding",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chukusuccess/Coding-Break-Extension"
+  },
+  "license": "MIT",
   "engines": {
     "vscode": "^1.86.0"
   },
