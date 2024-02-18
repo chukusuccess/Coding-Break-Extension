@@ -2,6 +2,8 @@
 
 Take care of your health while coding! This Break Reminder extension for Visual Studio Code gently nudges you to take a 10-minute break every hour of coding. Stay productive and mindful of your well-being with timely reminders.
 
+![Demo GIF](https://res.cloudinary.com/dtqx2jvcg/image/upload/v1708287901/coding-break-reminder/jip3zw6py1agtgim5rnu.gif "Coding Break Demo")
+
 ## Features
 
 - **Timely Reminders:** Automatically prompts you to take a 10-minute break every hour with a friendly notification.

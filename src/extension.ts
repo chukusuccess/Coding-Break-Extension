@@ -65,7 +65,7 @@ export function activate(context: vscode.ExtensionContext) {
       if (!reminderInterval) {
         reminderInterval = setInterval(() => {
           vscode.commands.executeCommand("break-reminder.remindBreak");
-        }, 360000); // 1 hour in milliseconds
+        }, 3600000);
       }
     }
   );
